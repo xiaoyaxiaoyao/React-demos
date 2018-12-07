@@ -1,0 +1,80 @@
+.leftHomeNav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 22;
+}
+.navTitle {
+  /* background: rgba(31, 26, 90, 0.14); */
+  padding: 15px;
+  color: #f4f9ff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.navBox {
+  padding: 0 10px;
+}
+.ant-menu {
+  color: #f6f6fb;
+}
+.navSearch .ant-select-selection .ant-input {
+  margin-bottom: 15px;
+  width: 100%;
+  background: rgba(31, 26, 90, 0.14);
+  border: 0;
+  height: 40px;
+}
+.navSearch {
+  width: 100%;
+}
+.ant-select-auto-complete.ant-select .ant-select-selection__rendered {
+  line-height: 40px;
+}
+.ant-select-selection {
+  background-color: transparent;
+}
+.leftHomeNav .navMenu {
+  background: rgba(31, 26, 90, 0.14);
+  border-right: 0;
+  margin-bottom: 20px;
+}
+.navMenu .ant-menu-submenu > .ant-menu {
+  background: rgba(218, 216, 232, 0.13);
+}
+.navMenu .ant-menu-submenu-open span {
+  color: #fff;
+}
+.ant-menu-item:hover, .ant-menu-item-active, .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open, .ant-menu-submenu-active, .ant-menu-submenu-title:hover {
+  color: #f6f6fb;
+}
+.ant-menu-submenu-vertical > .ant-menu-submenu-title .ant-menu-submenu-arrow:before, .ant-menu-submenu-vertical-left > .ant-menu-submenu-title .ant-menu-submenu-arrow:before, .ant-menu-submenu-vertical-right > .ant-menu-submenu-title .ant-menu-submenu-arrow:before, .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow:before, .ant-menu-submenu-vertical > .ant-menu-submenu-title .ant-menu-submenu-arrow:after, .ant-menu-submenu-vertical-left > .ant-menu-submenu-title .ant-menu-submenu-arrow:after, .ant-menu-submenu-vertical-right > .ant-menu-submenu-title .ant-menu-submenu-arrow:after, .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow:after {
+  background: #fff;
+}
+.ant-menu-submenu-title {
+  padding-left: 15px !important;
+}
+.ant-menu-item {
+  padding-left: 15px !important;
+}
+.ant-menu-item {
+  color: #fff;
+}
+.navHome {
+  background: rgba(218, 216, 232, 0.13);
+  padding: 10px 15px; 
+  margin-bottom: 15px;
+  color: #fff;
+}
+.navHome:hover {
+  color: #f6f6fb;
+}
+.ant-menu-vertical > .ant-menu-item, .ant-menu-vertical-left > .ant-menu-item, .ant-menu-vertical-right > .ant-menu-item, .ant-menu-inline > .ant-menu-item, .ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-vertical-left > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+  height: 36px;
+  line-height: 36px;
+}
+.navSearch i {
+  color: #fff;
+}
+.navSearch .ant-input-suffix {
+  top: 39%;
+}

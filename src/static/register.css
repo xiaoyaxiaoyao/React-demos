@@ -1,0 +1,55 @@
+#root,#root>div {
+  height: 100%;
+}
+.register {
+  background: url(../image/banner3.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.registerBox {
+  width: 400px;
+  padding: 30px 20px;
+  border-radius: 4px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(135,26,26,.18);
+  box-shadow: 0 0 10px rgba(71,25,25,0.68);
+}
+.ant-form-item {
+  margin-bottom: 10px;
+}
+.ant-form-item-label label {
+  color: rgba(246, 222, 222, 0.85);
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #ed6a6a;
+  border-color: #ee7272;
+}
+.registerBox .ant-checkbox-input:focus + .ant-checkbox-inner {
+  border-color: #ee8181;
+}
+.registerBox .ant-form-item-children .ant-checkbox-wrapper span {
+  color: #f8d9d9;
+}
+.ant-checkbox-wrapper a {
+  color: #fff;
+}
+.register-from-btn {
+  width: 100%;
+  background: #ee9797;
+  border: none;
+  margin-top: 10px;
+  margin-left: 0
+}
+#emailErr {
+  display: none;
+}
+#passwordErr {
+  display: none
+}
+#passwordpwdErr {
+  display: none;
+}

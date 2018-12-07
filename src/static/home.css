@@ -1,0 +1,17 @@
+.home {
+  background: url(../image/banner13.jpg) no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+}
+.home .leftHomeNav {
+  width: 270px;
+  flex-shrink: 0;
+  height: 100%;
+  overflow: auto;
+}
+.home .rightHomeBox {
+  width: 100%;
+  padding-left: 270px;
+  overflow: auto;
+}

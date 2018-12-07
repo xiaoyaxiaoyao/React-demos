@@ -1,0 +1,97 @@
+.rightHome {
+  padding-top: 60px;
+}
+.contentHome {
+  /* height: 500px; */
+  width: 99%;
+  position: relative;
+  border-radius: 0 5px 5px;
+  background: -webkit-linear-gradient(315deg, transparent 2em, #fff 0);
+  box-shadow: 0px 15px 15px -10px #222a31;
+}
+.contentHome::before {
+  content: "";
+  position: absolute;
+  width: 41px;
+  height: 42px;
+  top: -3px;
+  left: -1px;
+  background: -webkit-linear-gradient(135deg, rgba(205,221,241,0.22) 48%, transparent 0);
+  box-shadow: 2px 5px 7px -2px #c9cacc;
+}
+.contentTopBox {
+  display: flex;
+  height: 60px;
+  border-bottom: 1px solid #d8dde6;
+  width: 100%;
+}
+.contentTitle {
+  display: flex;
+  line-height: 60px;
+  padding-left: 50px;
+  width: 250px;
+}
+.dashboaroIcon {
+  background: url(../image/dashboard.png) no-repeat;
+  background-size: contain;
+  width: 26px;
+  height: 26px;
+  display: block;
+  margin-top: 18px;
+  margin-right: 5px;
+}
+.contentTitle span {
+  font-size: 20px;
+}
+.contentT {
+  border-right: 1px dashed #d8dde6;
+}
+.contentT:nth-of-type(3){
+  border-right: 0;
+}
+.timeBox {
+  width: 700px;
+  line-height: 60px;
+  padding-left: 10px;
+}
+.timeBox span {
+  padding-left: 5px;
+}
+.closeBox {
+  top: 23px;
+  right: 140px;
+  position: absolute;
+}
+.cardBox {
+  margin-top: 10px;
+  border-radius: 3px;
+  height: 150px;
+  width: 330px;
+  border: 1px solid #d8dde6;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  /* background: rgb(30, 156, 131); */
+  /* background:-webkit-linear-gradient(left top,#f7d9ff8a,#270738b0);
+  background:-o-linear-gradient(bottom right,#f7d9ff8a,#270738b0);
+  background:-moz-linear-gradient(bottom right,#f7d9ff8a,#270738b0);
+  background:linear-gradient(to bottom right,#f7d9ff8a,#270738b0); */
+}
+.ant-card-head {
+  border-bottom: 0;
+  color: rgb(117, 115, 122);
+  font-size: 30px;
+}
+.ant-row-flex-space-around {
+  margin-left: 5px !important;
+  margin-right: 5px !important
+}
+.ant-card {
+  background: none;
+}
+.ant-row {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}
+.tableBox {
+  padding: 15px;
+}

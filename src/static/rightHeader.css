@@ -1,0 +1,45 @@
+.rightHeader {
+  position: fixed;
+  top: 0;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+}
+.seachBox {
+  position: relative;
+  height: 40px;
+}
+.seachIcon {
+  background: url(../image/search.png) no-repeat;
+  height: 32px;
+  width: 32px;
+  background-size: contain;
+  position: absolute;
+  right: 6px;
+  top: 13px;
+}
+.seachBox .ant-input {
+  background: rgba(31, 26, 90, 0.14);
+  border: 0;
+}
+.userSet {
+  display: flex;
+  justify-content: flex-end
+}
+.userInfo {
+
+}
+.userInfoIcon {
+  background: url(../image/login.png) no-repeat;
+  background-size: contain;
+  width: 45px;
+  height: 45px;
+  display: block;
+  margin-top: 5px;
+}
+.setIcon {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 18px;
+  margin-right: 15px;
+}
